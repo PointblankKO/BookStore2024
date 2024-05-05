@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website Book Store</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+<header class="header">
+    <h1 id="head-title" class="title">WallBook</h1>
+    <p id="description">"If a book is well written, I always find it too short." - Jane Austen</p>
+    <div class="cart-dropdown">
+        <div class="cart">
+            <div class="cart-icon">Shopping Cart</div>
+            <div class="cart-content">
+                <div class="cart-item">
+                    <span>CORNER KICK</span>
+                    <div class="mini-image"><img src="book pictures/Cart/cart1.png" alt="Mini Image"></div>
+                    <span class="price">$13.99</span>
+                    <button class="remove-button">X</button>
+                </div>
+                <div class="cart-item">
+                    <span>Queens and Prophets</span>
+                    <div class="mini-image"><img src="book pictures/Cart/cart2.png" alt="Mini Image"></div>
+                    <span class="price">$20.99</span>
+                    <button class="remove-button">X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="tabs">
+        <!-- Kitchen tab -->
+        <input type="radio" class="tabs__radio" name="tabs" id="kitchen">
+        <label for="kitchen" class="tabs__label">Kitchen</label>
+        <div id="content-kitchen" class="tab__content">
+            <!-- Book listings for Kitchen category -->
+            <!-- BOOK1 -->
+            <div class="book">
+                <img src="book pictures/Kitchen/kitchen1.png" alt="History Book" class="book__image">
+                <h3>GREEN KITCHEN AT HOME</h3>
+                <p>Transform your kitchen into a hub of health and sustainability with 'Green Cuisine:
+                    Nourishing Recipes for a Healthy Planet.'
+                    Explore a bounty of plant-based dishes that are not only delicious
+                    but also environmentally friendly. From vibrant salads to hearty grain bowls,
+                    embrace a lifestyle that's both nutritious and green.</p>
+                <span class="price">$10.50</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK2 -->
+            <div class="book">
+                <img src="book pictures/Kitchen/kitchen2.png" alt="History Book" class="book__image">
+                <h3>THE BLUE ZONES KITCHEN</h3>
+                <p>Embark on a culinary journey to longevity with 'Blue Zones Kitchen:
+                    Discovering the Secrets of Longevity Through Food.'
+                    Explore the wholesome and delicious recipes from the world's Blue Zones,
+                    where people live the longest and healthiest lives. From vibrant Mediterranean
+                    salads to hearty Okinawan stews, unlock the secrets of longevity through nourishing cuisine.</p>
+                <span class="price">$10.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK3 -->
+            <div class="book">
+                <img src="book pictures/Kitchen/kitchen3.png" alt="History Book" class="book__image">
+                <h3>KOREAN HOME COOKING</h3>
+                <p>Delight your senses with 'Korean Kitchen: Exploring the Flavors of Tradition.'
+                    Journey through the heart of Korean culinary heritage,
+                    discovering beloved recipes passed down through generations.
+                    From savory bulgogi to spicy kimchi, explore the vibrant
+                    flavors and rich cultural traditions that define the Korean kitchen
+                    . Let each dish tell a story of tradition and innovation</p>
+                <span class="price">$20.00</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK4 -->
+            <div class="book">
+                <img src="book pictures/Kitchen/kitchen4.png" alt="History Book" class="book__image">
+                <h3>THE LAZY AND GENIUS KITCHEN</h3>
+                <p>Effortlessly elevate your cooking game with 'The Lazy & Smart Kitchen: Easy Recipes for Busy Minds.
+                    ' Discover ingenious shortcuts and time-saving techniques to create delicious meals with minimal effort.
+                    From one-pot wonders to sheet pan suppers, master the art of cooking smart, not hard,
+                    and reclaim your time in the kitchen.</p>
+                <span class="price">$14.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK5 -->
+            <div class="book">
+                <img src="book pictures/Kitchen/kitchen5.png" alt="History Book" class="book__image">
+                <h3>DOSA KITCHEN</h3>
+                <p>Embark on a culinary adventure through the flavors of South India with 'The Dosa Kitchen:
+                    Authentic Recipes for Delicious Dosas.' Explore the art of crafting crispy, flavorful dosas,
+                    from classic masala dosa to innovative variations. Discover traditional techniques, savory fillings,
+                    and chutneys that elevate every bite</p>
+                <span class="price">$10.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK6 -->
+            <div class="book">
+                <img src="book pictures/Kitchen/kitchen6.png" alt="History Book" class="book__image">
+                <h3>SCIENCE AND COOKING</h3>
+                <p>Dive into the fascinating intersection of science and cooking with
+                    'The Science of Cooking: Exploring Culinary Chemistry.'
+                    Unlock the secrets behind culinary techniques and ingredient interactions
+                    through a scientific lens. From sous vide to molecular gastronomy,
+                    embark on a culinary journey where experimentation meets delicious discovery.</p>
+                <span class="price">$22.00</span>
+                <button class="button">Buy</button>
+            </div>
+        </div>
+
+        <!-- Sport tab -->
+        <input type="radio" class="tabs__radio" name="tabs" id="sport">
+        <label for="sport" class="tabs__label">Sport</label>
+        <div id="content-sport" class="tab__content">
+            <!-- Book listings for Sport category -->
+            <!-- BOOK1 -->
+            <div class="book">
+                <img src="book pictures/Sport/sport1.png" alt="History Book" class="book__image">
+                <h3>FOOTBALL HACKERS</h3>
+                <p>Unravel the intricate strategies of the beautiful game with 'Football Hackers:
+                    Decoding the Science Behind Tactics.' Delve into the cutting-edge research and data analytics
+                    driving modern football tactics. From advanced statistical models to tactical innovations,
+                    explore how science is reshaping the way teams play and win on the pitch</p>
+                <span class="price">$12.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK2 -->
+            <div class="book">
+                <img src="book pictures/Sport/sport2.png" alt="History Book" class="book__image">
+                <h3>UN CAPITANO</h3>
+                <p>Experience the legend of Francesco Totti in 'Totti:
+                    The Eternal King of Rome.'
+                    Journey through the career of one of football's most iconic figures,
+                    from his debut as a teenage prodigy to his legendary status as the heart
+                    and soul of AS Roma. Delve into Totti's unparalleled skill, loyalty, and impact on the game.</p>
+                <span class="price">$16.20</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK3 -->
+            <div class="book">
+                <img src="book pictures/Sport/sport3.png" alt="History Book" class="book__image">
+                <h3>THE COMIC BOOK STORY OF BASKETBALL</h3>
+                <p>Dunk into the vibrant world of basketball with
+                    'The Comic Book Story of Basketball.' Follow the dynamic visuals and engaging narrative
+                    as it chronicles the evolution of the sport from its humble beginnings to its global phenomenon
+                    status. Learn about iconic players, historic moments,
+                    and the cultural impact of basketball through this captivating graphic journey.</p>
+                <span class="price">$10.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK4 -->
+            <div class="book">
+                <img src="book pictures/Sport/sport4.png" alt="History Book" class="book__image">
+                <h3>INVERTING THE PYRAMID</h3>
+                <p>Immerse yourself in the tactical revolution of football with
+                    'Inverting the Pyramid: The History of Football Tactics.'
+                    Explore the evolution of playing styles, formations, and strategies
+                    that have shaped the beautiful game. From the pioneering innovators to
+                    the modern masters, unravel the intricate web of tactical
+                    brilliance that defines football's rich history."</p>
+                <span class="price">$15.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK5 -->
+            <div class="book">
+                <img src="book pictures/Sport/sport5.png" alt="History Book" class="book__image">
+                <h3>HOW TO WATCH FOOTBALL</h3>
+                <p>Learn the art of watching football with 'How to Watch Football:
+                    A Fan's Guide to the Beautiful Game.' Discover the nuances of the sport,
+                    from tactical formations to player movements, through expert insights and analysis.
+                    Whether you're a seasoned fan or new to the game, this guide will
+                    enhance your viewing experience and deepen your appreciation for football</p>
+                <span class="price">$5.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK6 -->
+            <div class="book">
+                <img src="book pictures/Sport/sport6.png" alt="History Book" class="book__image">
+                <h3>B100 Years of NFL Legends</h3>
+                <p>Dive into a century of gridiron greatness with '100 Years of NFL Legends.'
+                    Explore the storied history of the National Football League through the iconic players,
+                    teams, and moments that have defined the sport. From the early pioneers to the modern superstars,
+                    celebrate the enduring legacy of NFL greatness.</p>
+                <span class="price">$25.99</span>
+                <button class="button">Buy</button>
+            </div>
+
+        </div>
+
+        <!-- Nature tab -->
+        <input type="radio" class="tabs__radio" name="tabs" id="nature">
+        <label for="nature" class="tabs__label">Nature</label>
+        <div id="content-nature" class="tab__content">
+            <!-- Book listings for Nature category -->
+            <!-- BOOK1 -->
+            <div class="book">
+                <img src="book pictures/Nature/forest1.png" alt="History Book" class="book__image">
+                <h3>NATIONAL FOREST INVENTORIES</h3>
+                <p>Explore the comprehensive documentation of forest resources with a focus on conservation,
+                    sustainability, and biodiversity management.</p>
+                <span class="price">$20.60</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK2 -->
+            <div class="book">
+                <img src="book pictures/Nature/forest2.png" alt="History Book" class="book__image">
+                <h3>KELL WOODS: AFTER THE FOREST</h3>
+                <p>Investigate the ecological succession and environmental
+                    changes in Kell Woods post-forest establishment,
+                    studying the regeneration of flora and fauna.</p>
+                <span class="price">$11.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK3 -->
+            <div class="book">
+                <img src="book pictures/Nature/forest3.png" alt="History Book" class="book__image">
+                <h3>FOREST ECOLOGY</h3>
+                <p>Explore the intricate relationships between organisms and their forest environments,
+                    studying topics such as nutrient cycles, biodiversity, and ecosystem dynamics.</p>
+                <span class="price">$17.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK4 -->
+            <div class="book">
+                <img src="book pictures/Nature/forest4.png" alt="History Book" class="book__image">
+                <h3>THE SECRET LIFE OF FOXES</h3>
+                <p>Unlock the mysteries of the nocturnal world with 'The Secret Life of Foxes.'
+                    Follow these cunning creatures
+                    through their hidden habitats and observe their fascinating behaviors,
+                    from hunting strategies to family dynamics. Delve into their intricate social
+                    structures and learn about their vital role in ecosystems.</p>
+                <span class="price">$19.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK5 -->
+            <div class="book">
+                <img src="book pictures/Nature/forest5.png" alt="History Book" class="book__image">
+                <h3>NG SECRETS OF THE WHALES</h3>
+                <p>Delve into the depths of the ocean to discover the largest creatures on Earth,
+                    learning about their migration patterns,
+                    feeding habits, and conservation status.</p>
+                <span class="price">$60.99</span>
+                <button class="button">Buy</button>
+            </div>
+            <!-- BOOK6 -->
+            <div class="book">
+                <img src="book pictures/Nature/forest6.png" alt="History Book" class="book__image">
+                <h3>OUR AMAZING WORLD: TIGERS</h3>
+                <p>Journey into the world of these majestic big cats,
+                   uncovering their habitats, behaviors, conservation efforts,
+                    and their significance in ecosystems.</p>
+                <span class="price">$30.99</span>
+                <button class="button">Buy</button>
+            </div>
+        </div>
+
+        <!-- History tab -->
+        <input type="radio" class="tabs__radio" name="tabs" id="history">
+        <label for="history" class="tabs__label">History</label>
+        <div id="content-history" class="tab__content">
+            <!-- Book listings for History category -->
+            <!-- BOOK1 -->
+            <div class="book">
+                <img src="book pictures/History/HISTORY1.png" alt="History Book" class="book__image">
+                <div class="book__info">
+                    <h3>SPQR</h3>
+                    <p>Immerse yourself in the epic tale of ancient Rome with 'SPQR:
+                        A History of Ancient Rome.' From its legendary foundation to the zenith of its power,
+                        this meticulously researched narrative unveils the triumphs,
+                        intrigues, and legacy of the Roman Republic and Empire.
+                        Unearth the secrets of one of history's greatest civilizations</p>
+                    <span class="price">$8.99</span>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+            <!-- BOOK2 -->
+            <div class="book">
+                <img src="book pictures/History/HISTORY2.png" alt="History Book" class="book__image">
+                <div class="book__info">
+                    <h3>THE HISTORY OF ARCHERY</h3>
+                    <p>Step into the world of archery's past with 'Masters of the Bow:
+                        A History of Archery.' Journey through millennia of human civilization,
+                        tracing the evolution of this ancient art form from its humble origins to its prominent
+                        role in warfare, sport, and culture.
+                        Uncover the fascinating stories behind archery's enduring legacy.</p>
+                    <span class="price">$6.99</span>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+            <!-- BOOK3 -->
+            <div class="book">
+                <img src="book pictures/History/HISTORY3.png" alt="History Book" class="book__image">
+                <div class="book__info">
+                    <h3>HISTORY OF FOOTMEN</h3>
+                    <p>Dive into the compelling narrative of foot soldiers throughout history with 'Boots on the Ground:
+                        A History of Infantry.' From ancient phalanxes to modern infantry units,
+                        explore the pivotal role of foot soldiers in warfare. Uncover the triumphs,
+                        sacrifices, and evolution of ground forces shaping the course of military history.</p>
+                    <span class="price">$33.00</span>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+            <!-- BOOK4 -->
+            <div class="book">
+                <img src="book pictures/History/HISTORY4.png" alt="History Book" class="book__image">
+                <div class="book__info">
+                    <h3>PALESTINE A FOUR THOUSANDS YEARS OF HISTORY</h3>
+                    <p>Embark on a captivating journey through the tumultuous history of Palestine with 'Echoes of Palestine:
+                        A Comprehensive History.' From ancient civilizations to modern conflicts,
+                        delve into the rich tapestry of cultures, religions,
+                        and struggles that have shaped this land. Uncover the enduring
+                        resilience and aspirations of its people amidst adversity.</p>
+                    <span class="price">$22.50</span>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+            <!-- BOOK5 -->
+            <div class="book">
+                <img src="book pictures/History/HISTORY5.png" alt="History Book" class="book__image">
+                <div class="book__info">
+                    <h3>THEY CAME TO BAGHDAD</h3>
+                    <p>Experience the splendor and intellectual vibrancy of the Golden Age of Baghdad with 'The Radiance of Abbasid Baghdad:
+                        A Cultural History.' Journey through a time of remarkable achievements in science,
+                        literature, and philosophy, as Baghdad flourished as the epicenter of Islamic civilization.
+                        Delve into the legacy of this golden era</p>
+                    <span class="price">$10.49</span>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+            <!-- BOOK6 -->
+            <div class="book">
+                <img src="book pictures/History/HISTORY6.png" alt="History Book" class="book__image">
+                <div class="book__info">
+                    <h3>MIRROR TO DAMASCUS</h3>
+                    <p>Explore the pivotal era of Damascus between the Romans and Umayyads in 'Echoes of Damascus:
+                        Transition and Triumph.' Witness the city's transformation from a Roman provincial capital
+                        to the heart of the Umayyad Caliphate. Unravel the complex tapestry of political intrigue,
+                        cultural exchange, and architectural splendor that defined this period.</p>
+                    <span class="price">$4.99</span>
+                    <button class="button">Buy</button>
+                </div>
+            </div>
+        </div>
+        <div class="sort-dropdown">
+            <button class="sort-button">Sort by</button>
+            <div class="dropdown-content">
+                <button class="sort-option">Name</button>
+                <button class="sort-option">Price</button>
+                <button class="sort-option">Author</button>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
